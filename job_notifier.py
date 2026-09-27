@@ -8,9 +8,12 @@ from selenium.webdriver.common.by import By
 TELEGRAM_BOT_TOKEN = os.getenv('8940507476:AAHZowpoH7L0XKOB-xLTPTDFT-wQMMs1224')
 TELEGRAM_CHAT_ID = os.getenv('ID5038339761')
 
-NAUKRI_URL = "https://www.naukri.com/devops-jobs?sort=date"
-FOUNDIT_URL = "https://www.foundit.in/srp?query=devops&sort=1"
-LINKEDIN_URL = "https://www.linkedin.com/jobs/search/?keywords=Devops&f_TPR=r86400&sortBy=DD"
+# Multiple Keywords (DevOps, SRE, Cloud, Kubernetes) + 4 Years Exp + Any Location
+NAUKRI_URL = "https://www.naukri.com/devops-or-sre-or-cloud-engineer-or-kubernetes-jobs?experience=4&sort=date" 
+
+FOUNDIT_URL = "https://www.foundit.in/srp?query=DevOps%20OR%20SRE%20OR%20Cloud%20OR%20Kubernetes&experience=4&sort=1"
+
+LINKEDIN_URL = "https://www.linkedin.com/jobs/search/?keywords=DevOps%20OR%20SRE%20OR%20Cloud%20OR%20Kubernetes&location=India&f_E=3%2C4&f_TPR=r86400&sortBy=DD"
 
 def send_telegram_message(platform, title, link):
     message = f"🚨 New Job on {platform}!\n\n💼 {title}\n🔗 {link}"
