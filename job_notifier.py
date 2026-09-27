@@ -5,8 +5,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 # GitHub Secrets theke Token gulo nebe
-TELEGRAM_BOT_TOKEN = os.getenv('8940507476:AAHZowpoH7L0XKOB-xLTPTDFT-wQMMs1224')
-TELEGRAM_CHAT_ID = os.getenv('ID5038339761')
+TELEGRAM_BOT_TOKEN = os.getenv('8824526553:AAE8bc3CEDVL1VDqq114s12a8w5OJcXLc2E')
+TELEGRAM_CHAT_ID = os.getenv('5038339761')
 
 # Multiple Keywords (DevOps, SRE, Cloud, Kubernetes) + 4 Years Exp + Any Location
 NAUKRI_URL = "https://www.naukri.com/devops-or-sre-or-cloud-engineer-or-kubernetes-jobs?experience=4&sort=date" 
