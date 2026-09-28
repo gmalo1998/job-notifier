@@ -1,8 +1,11 @@
 import time
 import requests
 import os
+import sys
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+
+print("--- JOB NOTIFIER SCRIPT STARTED ---", flush=True)
 
 # GitHub Secrets theke Token gulo nebe
 TELEGRAM_BOT_TOKEN = os.getenv('8824526553:AAE8bc3CEDVL1VDqq114s12a8w5OJcXLc2E')
