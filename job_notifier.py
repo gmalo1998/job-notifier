@@ -8,8 +8,9 @@ from selenium.webdriver.common.by import By
 print("--- JOB NOTIFIER SCRIPT STARTED ---", flush=True)
 
 # GitHub Secrets theke Token gulo nebe
-TELEGRAM_BOT_TOKEN = os.getenv('8824526553:AAE8bc3CEDVL1VDqq114s12a8w5OJcXLc2E')
-TELEGRAM_CHAT_ID = os.getenv('5038339761')
+
+TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
 
 if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
     print("ERROR: Telegram Token or Chat ID is missing in Secrets!", flush=True)
