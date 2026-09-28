@@ -2,7 +2,7 @@ name: Job Notifier Bot
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Proti 30 minute por por run korbe
+    - cron: '*/30 3-16 * * *'  # Proti 30 minute por por run korbe
   workflow_dispatch:        # Apni chaile manual o run korte parben
 
 jobs:
